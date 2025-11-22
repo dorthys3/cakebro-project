@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: cakebro-frontend
+    env: node
+    plan: free
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npm start
+    autoDeploy: true
+
+  - type: web
+    name: cakebro-backend
+    env: java
+    plan: free
+    buildCommand: cd backend && ./mvnw package
+    startCommand: cd backend && java -jar target/*.jar
+    autoDeploy: true
