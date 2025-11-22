@@ -1,0 +1,90 @@
+.about-title{
+    color: #c97b00;
+    margin-top: -70px;
+}
+.about-header {
+    margin-top: 280px;
+}
+.about-header h1{
+     color: hsl(0, 49%, 39%);
+}
+.about-header .p-1{
+  font-size: 1.2rem;
+    color: hsl(0, 49%, 39%);
+}
+.about-header p{
+    color:#5a3c00;
+}
+.about-page-wrapper {
+ 
+  color: #c97b00;  /* soft gold */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about-header h1 {
+  color: hsl(0, 49%, 39%);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about-title {
+  color: hsl(0, 49%, 39%);
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.about-title , p{
+  color: hsl(0, 49%, 39%);
+}
+ul li {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+  color:hsl(0, 49%, 39%);
+
+}
+
+
+.occasions-section h2 {
+  color:hsl(0, 49%, 39%);
+   font-size: 2rem;
+}
+
+.occasions-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.occasion-card {
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.occasion-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-bottom: 8px;
+}
+
+.occasion-card h5 {
+  font-weight: bold;
+  color:#5a3c00;
+}
+
+.occasion-card:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 15px #fff3cc;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+  .occasions-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

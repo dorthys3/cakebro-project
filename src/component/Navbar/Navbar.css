@@ -1,0 +1,42 @@
+.cake-navbar {
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: sticky;  /* THIS MAKES IT STICK */
+  top: 0;
+  left: 0;
+  z-index: 1000;    /* on top of everything */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+#navbar{
+  position: sticky;
+  top:0;
+ background-color: rgb(64, 33, 33)
+
+ /* Dark cocoa */
+  !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+  margin-left: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white!important;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item .nav-link {
+  color: white !important;
+  font-weight: 500;
+  text-decoration: none;
+}

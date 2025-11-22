@@ -1,0 +1,34 @@
+.cake-footer {
+ background-color: hsl(0, 49%, 92%);
+  color: #5a3c00;
+  padding-top: 30px;
+  border-top: 4px solid hsl(0, 49%, 39%);
+}
+
+.footer-title {
+  color: hsl(0, 49%, 39%);
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.footer-link {
+   color: hsl(0, 49%, 39%);
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 400;
+}
+
+.footer-link:hover {
+ background-color: hsl(0, 49%, 39%);
+  padding-left: 6px;
+  color:white;
+}
+
+.footer-bottom {
+  background: hsl(0, 49%, 92%);
+   color: hsl(0, 49%, 39%);
+  font-weight: 600;
+  border-top: 1px solid hsl(0, 49%, 39%);
+  padding: 10px 0;
+}

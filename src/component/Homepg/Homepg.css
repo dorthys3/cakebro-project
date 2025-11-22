@@ -1,0 +1,29 @@
+.home-wrapper {
+  width: 100%;
+  top:0;
+}
+
+.single-image-container {
+  position: relative; 
+  width: 100%;
+  height: 450px;
+}
+
+.single-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: hsl(0, 49%, 25%);
+  font-size: 10.5rem;
+  font-style: italic;
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 9px 9px 10px black;
+}

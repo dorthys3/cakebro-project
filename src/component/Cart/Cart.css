@@ -1,0 +1,55 @@
+.cart-1{
+    color:hsl(0, 49%, 39%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
+.cart-2{
+    color:hsl(0, 49%, 39%);
+}
+.cart-items{
+   color:hsl(0, 49%, 39%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    font-weight: 900;
+    text-align: center;
+    border:3px solid hsl(0, 49%, 39%);
+    display:flex;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgb(64, 33, 33);
+}
+.cart-items:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    background-color:  rgb(64, 33, 33);
+    box-shadow: 1px 1px 4px #e79914ff;
+    color:white;
+}
+.cart-items p{
+    color:hsl(0, 49%, 39%);
+}
+
+.cart-items h4,p{
+    color:hsl(0, 49%, 39%);
+}
+.cart-items:hover h4,
+.cart-items:hover p {
+  color: white !important;
+}
+.cart-button{
+    border:3px solid hsl(0, 49%, 39%);
+    color:#fde4e4;
+    font-size: large;
+    font-weight: 400;
+    background-color:hsl(0, 49%, 39%);
+}
+.cart-button:hover{
+    background-color:white;
+    color: hsl(0, 49%, 39%);
+    transition: 0.3s ease-in-out;
+    border:3px solid hsl(0, 49%, 39%);
+}
+.cart-total{
+    color:hsl(0, 49%, 39%);
+}
