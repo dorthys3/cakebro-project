@@ -12,5 +12,4 @@ services:
     runtime: docker
     plan: free
     buildCommand: cd backend && docker build -t cakebro-backend .
-    startCommand: cd backend && docker run -p $PORT:$PORT cakebro-backend
     autoDeploy: true
